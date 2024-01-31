@@ -1,0 +1,11 @@
+// @import './fonts';
+@use './fonts';
+
+body {
+    background-color: red;
+    font-size: fonts.$font-20;
+}
+
+p{
+    font-size: fonts.$font-10;
+}
