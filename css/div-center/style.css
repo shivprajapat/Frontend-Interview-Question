@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+  background-color: #000;
+}
+:root{
+  --white:white;
+}
+h1 {
+  background-color: #262525;
+  display: inline-block;
+  color: var(--white);
+  padding: 30px;
+  margin: 0;
+  position: relative;
+}
+.parent {
+  height: 100vh;
+  width: 100%;
+}
+
+/* 1. Using Flex */
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 2. Using Grid*/
+.parent {
+  display: grid;
+  place-items: center;
+}
+.child {
+  margin: auto;
+}
+
+/* 3. Using Flex and Margin*/
+/* .parent {
+    display: flex;
+    }
+    .child {
+    margin: auto;
+    } */
+
+/* 4. Using Grid and Margin*/
+
+/* .parent {
+  display: grid;
+}
+.child {
+  margin: auto;
+} */
+
+/* 5. Using Position */
+
+/* .parent {
+  position: relative;
+}
+.child {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
